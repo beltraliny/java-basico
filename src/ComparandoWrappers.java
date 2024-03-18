@@ -22,5 +22,6 @@ public class ComparandoWrappers {
         // Forma correta de comparar Wrappers:
         System.out.println(number1.equals(number2)); //true
         System.out.println(number1.intValue() == number3.intValue()); //true
+        System.out.println(number1.compareTo(number2) == 0);
     }
 }
