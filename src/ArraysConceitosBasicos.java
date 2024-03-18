@@ -1,4 +1,5 @@
 import java.lang.reflect.Array;
+import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Comparator;
 
@@ -46,5 +47,8 @@ public class ArraysConceitosBasicos {
 
         System.out.println(Arrays.toString(currentIntArray)); //[25, 11, 8, 46, 37, 14, 55]
         System.out.println(Arrays.toString(newIntArray)); // [25, 11, 46, 37, 14, 55] -> removido 8 (index 2 de currentIntArray)
+
+        // Declaração de ArrayList:
+        ArrayList<String> stringArrayList = new ArrayList<>();
     }
 }
