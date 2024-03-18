@@ -1,5 +1,15 @@
 public class MemoriaHeap {
 
+    /*
+        Comandos para alterar valor da memória Heap, exemplos:
+        Memória máxima:
+            java -Xmx900M ClassName
+            java -Xmx2G ClassName
+
+        Memória inicial reservada:
+            java -Xms400MB
+    */
+
     public static void main(String[] args) {
         printMemoryUsage();
 
