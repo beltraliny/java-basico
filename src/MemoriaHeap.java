@@ -8,6 +8,11 @@ public class MemoriaHeap {
 
         Memória inicial reservada:
             java -Xms400MB
+
+        Quanto estoura a memória Heap gera a Exception OutOfMemoryError
+
+        Sugerindo execução do Garbage Collector:
+            System.gc();
     */
 
     public static void main(String[] args) {
