@@ -25,7 +25,7 @@ public class MemoriaHeap {
         printMemoryUsage();
     }
 
-    static void printMemoryUsage() {
+    private static void printMemoryUsage() {
         System.out.printf("Máxima: %s%n",
             parseToMegabytes(Runtime.getRuntime().maxMemory()));
 
@@ -42,7 +42,7 @@ public class MemoriaHeap {
         System.out.println("---");
     }
 
-    static String parseToMegabytes(long bytes) {
+    private static String parseToMegabytes(long bytes) {
         return String.format("%.2fMB", bytes / 1024d / 1024d);
     }
 }

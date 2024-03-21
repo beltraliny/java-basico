@@ -7,7 +7,7 @@ public final class ClassImutavel {
     private final String stringType;
     private final int intType;
 
-    ClassImutavel(String stringType, int intType) {
+    public ClassImutavel(String stringType, int intType) {
         // Os valores não setados da declaração precisam estar no construtor para inicialização (final)
         this.stringType = stringType;
         this.intType = intType;

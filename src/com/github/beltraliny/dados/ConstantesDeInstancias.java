@@ -4,25 +4,25 @@ import java.util.UUID;
 
 public class ConstantesDeInstancias {
 
-    static final String STRING_DEFAULT = "Default";
-    static final int INT_DEFAULT = 0;
+    private static final String STRING_DEFAULT = "Default";
+    private static final int INT_DEFAULT = 0;
 
-    final String uuid;
+    private final String uuid;
     // Isso aqui também funcionaria:
     // final String uuid = UUID.randomUUID().toString();
 
-    String stringType;
-    int intType;
+    private String stringType;
+    private int intType;
 
-    ConstantesDeInstancias() {
+    public ConstantesDeInstancias() {
         this(STRING_DEFAULT);
     }
 
-    ConstantesDeInstancias(String stringType) {
+    public ConstantesDeInstancias(String stringType) {
         this(stringType, INT_DEFAULT);
     }
 
-    ConstantesDeInstancias(String stringType, int intType) {
+    public ConstantesDeInstancias(String stringType, int intType) {
         /*
          * A constante só pode ser inicializada na declaração ou no construtor
          * Caso haja construtores encadeados a inicialização ocorre apenas no último chamado.
