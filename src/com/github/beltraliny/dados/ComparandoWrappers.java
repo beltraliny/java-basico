@@ -1,3 +1,5 @@
+package com.github.beltraliny.dados;
+
 public class ComparandoWrappers {
 
     public static void main(String[] args) {

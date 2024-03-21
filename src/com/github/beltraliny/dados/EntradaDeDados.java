@@ -1,3 +1,5 @@
+package com.github.beltraliny.dados;
+
 import java.util.Scanner;
 
 public class EntradaDeDados {

@@ -1,4 +1,4 @@
-/*
+package com.github.beltraliny.classes;/*
     Classes imutaveis não podem ser herdadas
  */
 

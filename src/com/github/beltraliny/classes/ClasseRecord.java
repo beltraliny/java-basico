@@ -1,4 +1,4 @@
-/*
+package com.github.beltraliny.classes;/*
     Uma classe record é imutável, disponível a partir do Java 16 (17 lts)
 */
 

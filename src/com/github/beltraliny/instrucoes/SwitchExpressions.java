@@ -1,3 +1,5 @@
+package com.github.beltraliny.instrucoes;
+
 public class SwitchExpressions {
 
     public static void main(String[] args) {

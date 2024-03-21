@@ -1,3 +1,5 @@
+package com.github.beltraliny.classes;
+
 import java.util.Objects;
 
 public class EncadearConstrutores {

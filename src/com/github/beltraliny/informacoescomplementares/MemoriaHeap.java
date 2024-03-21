@@ -1,3 +1,5 @@
+package com.github.beltraliny.informacoescomplementares;
+
 public class MemoriaHeap {
 
     /*

@@ -1,3 +1,5 @@
+package com.github.beltraliny.classes;
+
 import java.io.Serializable;
 /*
     Regras para que uma classe seja considerada JavaBean

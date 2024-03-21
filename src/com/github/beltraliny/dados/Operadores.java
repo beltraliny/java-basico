@@ -1,3 +1,5 @@
+package com.github.beltraliny.dados;
+
 public class Operadores {
 
     public static void main(String[] args) {
