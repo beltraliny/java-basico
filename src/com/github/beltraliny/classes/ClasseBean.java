@@ -5,7 +5,7 @@ import java.io.Serializable;
     Regras para que uma classe seja considerada JavaBean
 */
 
-// Implementar uma interface para indicar que a classe pode ser serializada
+// Implementar a interface Serializable para indicar que a classe pode ser serializada
 public class ClasseBean implements Serializable {
 
     // Utilizar modificadores de acesso mais restrito (private)
